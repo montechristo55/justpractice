@@ -25,6 +25,7 @@ border-radius: 2px;
 }
 nav a:hover{
     background:#646d72;
+    color: #fff;
 }
 /* .active{ */
 nav a.active{ 
