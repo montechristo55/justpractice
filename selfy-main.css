@@ -1,0 +1,37 @@
+body {
+    display:flex;
+    justify-content: center;
+    /**WYŚRODKOWANIE STRONY** --> a/a albo margin:0 auto;  */  
+}
+a{
+    color:#2d3438;
+}
+main {
+    width: 1140px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+}
+nav a {
+font-weight: bold;
+padding: 6px 24px;
+margin: 6px;
+color:#2d3438;
+text-decoration: none;
+border-radius: 2px;
+/* font-family:; */
+}
+nav a:hover{
+    background:#646d72;
+}
+/* .active{ */
+nav a.active{ 
+    background-color: #ffc000;
+    color:#fff;
+}
+#logo {
+    width: 131px;
+}
+
