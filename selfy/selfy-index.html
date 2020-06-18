@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <!-- char=>charakter (znak), set= zestaw, charset - zestaw znaków używanych na stronie www /sposób kodowania/ -->
@@ -24,9 +24,10 @@
     <link rel="stylesheet" href="selfy-main.css" type="text/css" />
     <!-- link do pliku w css==> style.css type= plik tekstowy z rozszerzeniem css-->
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> -->
     <!-- *wstawiamy link do strony google fonts albo fontello albo innej i pobieramy style czcionki oraz grubość; -->
     <!-- PAMIETAJ O LATIN-EXTENSION!!! -->
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital@0;1&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <script src="skrypt.js"></script>
     <!-- Java to przednami.... -->
@@ -34,8 +35,11 @@
     <meta name="author" content="Krzysztof Przybylski" />
 </head>
 <body>
+    <div id="background">
+        
+    </div>
     <main>
-        <!-- wrzucenie wszystkiego w jednego dive pomaga wyśrodkowac strone... -->
+        <!-- wrzucenie wszystkiego w jednego diva pomaga wyśrodkować strone... -->
         <header>
             <img id="logo" src="assets/logo@2x.png" alt="selfy logo">
             <nav>
@@ -47,12 +51,12 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </header>
-        <section>
+        <section id="head">
             <h1>You idiots!</h1>
 
             <h2>These are not them! You’ve captured their stunt doubles!</h2>
             
-            <p>— Spaceballs</p>
+            <p class="spaceballs">— Spaceballs</p>
             <p>
                 No more boring V-Cards, Selfy is the perfect theme for self promotion. A little piece of the internet all about you, customise and self 
                 express with Selfy... <a href="styles.html">Read More</a>
